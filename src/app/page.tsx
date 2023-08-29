@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex flex-col items-center w-full max-w-5xl mx-auto min-h-screen">
 
       <header className="bg-zinc-400 w-full p-4 mt-16 mb-16 drop-shadow-2xl">
-        <div className="text-lg font-semibold">Max's blog</div>
+        <div className="text-lg font-semibold">Max&apos;s blog</div>
       </header>
       <div className="w-full mb-16 flex justify-around items-center">
         <div className="w-full mb-16 max-w-sm">
