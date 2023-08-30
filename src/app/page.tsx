@@ -1,5 +1,7 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image'
+
 
 export default function Home() {
   return (
@@ -36,10 +38,22 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-4 md:mb-0">
-          <img src="/path/to/your/image1.jpg" alt="Description of Image 1" className="w-32 h-32 object-cover" />
+          <Image
+            src="/writer.jpeg"
+            alt="Writer"
+            width={250}
+            height={250}
+            className="object-cover"
+          />
         </div>
         <div className="mb-4 md:mb-0">
-          <img src="/path/to/your/image1.jpg" alt="Description of Image 1" className="w-32 h-32 object-cover" />
+        <Image
+          src="/poster.jpeg"
+          alt="Poster"
+          width={250}
+          height={250}
+          className="object-cover"
+        />
         </div>
       </div>
     </div>
